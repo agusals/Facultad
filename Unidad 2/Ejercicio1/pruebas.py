@@ -11,7 +11,7 @@ class abuelita:
         return self.__lista
 
 class brocsv:
-    __archivo = open("bro.csv")
+    __archivo = open('bro.csv')
     reader = csv.reader(__archivo, delimiter=";")
     def closer(self):
         self.__archivo.close()
@@ -35,5 +35,7 @@ if __name__ == "__main__":
     
     csvobj.closer()
 
+    ingreso: bool = True
+    print("in es:",type(ingreso))
     ingreso = input("mete cosa:")
-    print("in es:",ingreso)
+    print("in es:",type(ingreso))
