@@ -8,8 +8,8 @@ class Lector:
         reader = csv.reader(archivo, delimiter=",", skipinitialspace=True)
     
         for fila in reader:
-            print(fila)
-            listacsv.append(vf(fila[0], fila[1], fila[2], fila[3]))
+            #print(fila)
+            listacsv.append(vf(int(fila[0]), str(fila[1]), str(fila[2]), str(fila[3]), int(fila[4])))
                 
             """for i in range(len(fila)):
               listacsv.append(v())
