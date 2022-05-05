@@ -8,5 +8,11 @@ class Registro:
         self.__humedad = hum
         self.__presion = pre
 
-    def getvar(self) -> int:
-        return self.__temp, self.__humedad, self.__presion
+    def gettemp(self) -> int:
+        return int(self.__temp)
+    
+    def gethum(self) -> int:
+        return int(self.__humedad)
+
+    def getpresion(self) -> int:
+        return int(self.__presion)
