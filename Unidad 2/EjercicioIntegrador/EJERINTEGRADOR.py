@@ -28,4 +28,4 @@ if __name__ == "__main__":
     listador.listarpordiag(med, camas, diag)
 
     os.system("CLS")
-    print("\nPrograma finalizadox...\n")
+    print("\nPrograma finalizado...\n")
